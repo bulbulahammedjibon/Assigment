@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; 
+}*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 80% auto;
+    max-width: 1320px;
+
+    /* 
+    background-repeat: no-repeat;
+    font-family: 'Merriweather', serif;
+   
+     background-size: 1056px 480px;
+    align-items: center;  */
+
+}
+
+.contant {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 97px;
+
+}
+
+.banner-text {
+    text-align: center;
+    color: #FFF;
+    padding: 145px;
+}
+
+.banner-text h3 {
+    padding-bottom: 13px;
+    padding-left: 188px auto;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.banner-text h1 {
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+.discoutnt {
+    text-align: center;
+    font-family: Inter;
+    width: 80%;
+
+}
+
+.discount-text h1 {
+    color: #F00;
+    font-size: 73px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    font-weight: 700;
+
+
+}
+
+.discount-text p {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-text h2 {
+    margin-top: 13px;
+    color: #070211;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-image {
+    /* width: 702.9px;
+    height: 400px; */
+    background-size: 700px 400px;
+    margin-bottom: 110px;
+}
+
+.party {
+    width: 80%;
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+/* .year {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 90px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #F00;
+   
+} */
+
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    width: 600px;
+    padding: 150px 460px 0 10px;
+}
+
+.party-text h4 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
+    width: 690px;
+    padding: 50px 450px 0px 100px;
+    font-family: Inter;
+
+}
+
+.party-text h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    padding: 40px 140px 0 170px;
+}
+
+.place-time {
+    text-align: center;
+}
+
+.place-time h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+
+}
+
+.place-time {
+    padding-top: 100px;
+
+}
+
+.place-time #space {
+    padding-bottom: 48px;
+}
+
+.place-time button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.containt-3 {
+    width: 80%;
+    margin-top: 120px;
+    /* width: 1070px;
+    height: 392px;
+    flex-shrink: 0; */
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    /* fill:  */
+    /* background-color: 
+    linear-gradient(180deg, rgba(208, 12, 12, 0.1) 0%, rgba(236, 17, 17, 0) 100%);
+} */
+    background-image: linear-gradient(180deg, rgba(208, 12, 12, 0.1) 0%, rgba(236, 17, 17, 0) 100%);
+}
+
+/* holyday */
+
+
+
+.holyday-sell-text {
+    text-align: center;
+
+}
+
+.holyday-sell-text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.holyday-sell-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#sale {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyday-sell-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 1068px;
+}
+
+/* .holyday-sell-image */
+
+
+
+.holyday-sell-image {
+
+    /* align-items: center; */
+}
+
+.holyday-sell-image-box {
+    display: flex;
+}
+
+/* sub group */
+
+.holyday-sell-image-box #box {
+    width: 500px;
+
+    /* align-items: end; */
+
+}
+
+.holyday-sell-image-box #dis {
+    width: 206.841px;
+    height: 206.841px;
+     
+
+}
+
+.holyday-sell-image-box #sop {
+    width: 429px;
+    height: 433px;
+    background-position: bottom right;
+    /* padding-left: 160px; */
+    margin-left: 185px;
+
+}
+
+.holyday-sell-image-shoping {
+    width: 80% auto;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+
+.containt-4 {
+    /* background-color: aqua; */
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.contant-5 .portfolio-text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.contant-5 .portfolio-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.contant-5 .portfolio-text p {
+    width: 720px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-right: 585px;
+    margin-bottom: 24px;
+    /* 160% */
+}
+
+.contant-5 .portfolio-image .image-1 {
+    justify-content: space-between;
+    background-color: #F00;
+}
+
+.contant-5 .portfolio-image .image-level-1 {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0;
+
+}
+
+.contant-5 .portfolio-image .image-level-2 {
+    display: flex;
+    gap: 0 24px;
+}
+
+.contant-6 {
+    border-radius: 16px;
+
+    background: rgba(221, 10, 10, 0.05);
+    margin: 120px 0;
+}
+
+.contant-6 .subscribe-image {
+    /* align-items: center; */
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    padding: 80px 500px 35px 500px;
+
+
+}
+
+.contant-6 .subscribe-text h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.contant-6 .subscribe-text p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+
+    /* 160% */
+}
+
+.contant-6 form input {
+    width: 640px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0 0px 50px;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+
+
+    background: #FFF;
+    /*  
+   
+    
+    margin-bottom: 80px;
+    margin-right: 0; */
+}
+
+
+
+
+.contant-6 form {
+    width: 640px;
+    display: flex;
+
+    margin: 20px auto;
+    padding-bottom: 80px;
+}
+
+.contant-6 form input {}
+
+
+button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+
+    /* border-radius: 8px;
+    background: #E55473; */
+    /* color: white;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+   
+    cursor: pointer; */
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 15px 28px;
+
+}
+
+footer {
+    background: #070211;
+    height: 750px;
+}
+
+.foot-desian-1 {
+
+    padding-top: 120px;
+    padding-bottom: 98px;
+}
+
+.foot-desian-1 .adress p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    width: 375px;
+    height: 80px;
+}
+
+.foot-desian-1 .contact p,
+.website p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    /* text-align: right; */
+
+}
+
+.foot-desian-1 {
+    display: flex;
+
+}
+
+.foot-desian-1 .adress {
+    margin-left: 140px;
+}
+
+.foot-desian-1 .website {
+    margin-right: 70px;
+}
+
+.foot-desian-2 .social-icon {
+    width: 20%;
+    display: flex;
+    padding: 48px 0;
+
+}
+
+.foot-desian-3 p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.foot-desian-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 90px 0;
+
+}
+
+.foot-desian-3 .subs {
+    margin-right: 140px;
+}
+
+.foot-desian-3 .right {
+    margin-left: 140px;
+}
+
+.line-1,
+.line-2 {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    text-align: left;
+    width: 1075px;
+    margin: 20px auto;
+
+}
