@@ -14,8 +14,8 @@ font-family: 'Merriweather', serif;
     max-width: 1320px;
 
     /* 
-    
-    
+    background-repeat: no-repeat;
+    font-family: 'Merriweather', serif;
    
      background-size: 1056px 480px;
     align-items: center;  */
@@ -181,6 +181,7 @@ font-family: 'Merriweather', serif;
     gap: 10px;
     border-radius: 8px;
     background: #F00;
+    border: none;
 
     color: #FFF;
     text-align: center;
@@ -461,6 +462,7 @@ button {
     line-height: normal;
     text-transform: capitalize;
     padding: 15px 28px;
+    border: none;
 
 }
 
